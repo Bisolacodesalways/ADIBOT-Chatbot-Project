@@ -15,7 +15,7 @@ import tensorflow as tf
 import random
 #json - for reading intents saved as .json file
 import json
-#pickle - for steriliation purposed. This allows partial program code to be run and nor repeated for various input/output combination
+#pickle - for sterilization purposes. This allows partial program code to be run and nor repeated for various input/output combination
 import pickle
 #reading each word from intents.json as text and loading it into intents dictionary
 with open("intents.json") as file:
